@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "my-rsa"
+version = "0.1.0"
+description = ""
+authors = ["BaDum-Tss <99732685+BuDum-Tss@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rsa = "^4.9"
+twine = "^4.0.2"
+sympy = "^1.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
